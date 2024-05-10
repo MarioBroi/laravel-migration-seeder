@@ -13,7 +13,7 @@ class TrainController extends Controller
     public function index()
     {
         //dd(Train::all());
-        $trains = Train::orderByDesc('id')->get();
+        $trains = Train::orderByRaw('id')->get();
 
         return view('guests.trains.index', compact('trains'));
     }
