@@ -28,6 +28,6 @@ Create il modello Model relativo alla migrazione che avete predisposto al fine d
 - Orario di partenza TIME
 - Orario di arrivo TIME
 - Codice Treno VARCHAR(15)
-- Numero Carrozze TINYINT
+- Numero Carrozze SMALLINT
 - In orario BOOLEAN
 - Cancellato BOOLEAN    
