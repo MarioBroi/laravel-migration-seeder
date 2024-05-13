@@ -31,3 +31,9 @@ Create il modello Model relativo alla migrazione che avete predisposto al fine d
 - Numero Carrozze SMALLINT
 - In orario BOOLEAN
 - Cancellato BOOLEAN    
+
+# new instructions
+Aggiungiamo un seeder per la classe Train usando un array di dati fittizzi fatta a mano.
+
+# BONUS: 
+Implementare il seeder tramite FakerPHP
